@@ -22,6 +22,5 @@ steps:
     goals: 'package'
 - task: SonatypeCloudPipelineTask@0
   inputs:
-    SonatypeCloudService: 'zackbuild'
+    SonatypeCloudService: 'zacktest'
     stage: 'Build'
-    scanTargets: '**/*.jar, **/*.war, **/*.ear, **/*.zip, **/*.tar.gz, **/*.xml'
