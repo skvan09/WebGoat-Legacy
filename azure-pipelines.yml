@@ -22,5 +22,5 @@ steps:
     goals: 'package'
 - task: SonatypeCloudPipelineTask@0
   inputs:
-    SonatypeCloudService: 'ken cloud'
+    SonatypeCloudService: 'kenware'
     stage: 'Build'
