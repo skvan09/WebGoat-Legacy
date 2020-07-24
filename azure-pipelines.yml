@@ -23,4 +23,4 @@ steps:
 - task: SonatypeCloudPipelineTask@0
   inputs:
     SonatypeCloudService: 'prodtest'
-    stage: 'Build'
+    stage: 'Develop'
