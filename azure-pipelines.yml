@@ -22,5 +22,5 @@ steps:
     goals: 'package'
 - task: SonatypeCloudPipelineTask@0
   inputs:
-    SonatypeCloudService: 'prodtest'
+    SonatypeCloudService: 'powerplan'
     stage: 'Build'
